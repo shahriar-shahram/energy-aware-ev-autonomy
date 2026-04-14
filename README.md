@@ -156,11 +156,6 @@ The framework demonstrates:
   - Safety
   - Comfort
 
-### Example Outputs
-
-![Tracking](assets/tracking.png)
-![Energy](assets/energy.png)
-![Training](assets/training.png)
 
 ---
 
