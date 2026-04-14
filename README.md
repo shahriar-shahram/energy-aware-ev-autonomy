@@ -14,7 +14,9 @@ The system is designed to operate under **real-world constraints**, including:
 - Non-convex energy consumption models
 - Real-time control requirements
 
-
+<p align="center">
+  <img src="PATH_TO_IMAGE" width="600">
+</p>
 ![Energy Optimization](assets/plots/comparison.png)
 
 ---
