@@ -13,6 +13,8 @@ The system is designed to operate under **real-world constraints**, including:
 - Uncertain or delayed preview information
 - Non-convex energy consumption models
 - Real-time control requirements
+
+
 ![Energy Optimization](assets/plots/comparison.png)
 
 ---
