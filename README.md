@@ -15,9 +15,8 @@ The system is designed to operate under **real-world constraints**, including:
 - Real-time control requirements
 
 <p align="center">
-  <img src="PATH_TO_IMAGE" width="600">
+  <img src="assets/plots/comparison.png" width="600">
 </p>
-![Energy Optimization](assets/plots/comparison.png)
 
 ---
 
