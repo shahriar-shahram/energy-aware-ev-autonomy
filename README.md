@@ -54,8 +54,7 @@ The framework combines:
   - Maintain safe following distance  
   - Ensure smooth driving behavior
 
-![MPC](assets/diagrams/mpc_block.png)
-
+<img src="assets/diagrams/mpc_block.png" width="500">
 ![ACC Scenario](assets/diagrams/ACC.png)
 
 ## Detailed Results
