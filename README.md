@@ -1,6 +1,9 @@
 # Energy-Aware Autonomous Driving for Electric Vehicles  
 ### MPC + Deep Reinforcement Learning under Uncertainty
 
+## Results Overview
+
+![Energy Optimization](assets/plots/comparison.png)
 ---
 
 ## Overview
