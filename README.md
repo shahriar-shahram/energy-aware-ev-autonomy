@@ -1,3 +1,4 @@
+🚀 IEEE OJ-ITS 2025 | IEEE VTC 2026 | SAE 2023 | VPPC 2023
 # Energy-Aware Autonomous Driving for Electric Vehicles  
 ### MPC + Deep Reinforcement Learning under Uncertainty
 
