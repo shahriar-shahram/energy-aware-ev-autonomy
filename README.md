@@ -1,9 +1,7 @@
 # Energy-Aware Autonomous Driving for Electric Vehicles  
 ### MPC + Deep Reinforcement Learning under Uncertainty
 
-## Results Overview
 
-![Energy Optimization](assets/plots/comparison.png)
 ---
 
 ## Overview
@@ -15,6 +13,7 @@ The system is designed to operate under **real-world constraints**, including:
 - Uncertain or delayed preview information
 - Non-convex energy consumption models
 - Real-time control requirements
+![Energy Optimization](assets/plots/comparison.png)
 
 ---
 
@@ -31,6 +30,7 @@ This project addresses:
 ---
 
 ## System Architecture
+
 
 The framework combines:
 
@@ -50,8 +50,25 @@ The framework combines:
 - **Optimization Objective**
   - Minimize energy consumption  
   - Maintain safe following distance  
-  - Ensure smooth driving behavior  
+  - Ensure smooth driving behavior
 
+![MPC](assets/diagrams/mpc_block.png)
+
+![ACC Scenario](assets/diagrams/ACC.png)
+
+## Detailed Results
+
+### FTP-75 Drive Cycle
+![FTP75](assets/plots/ftp75_ojits.png)
+
+### NREL C3 Dataset
+![NREL](assets/plots/Nrelc3_ojits.png)
+
+### Metro Highway California
+![Metro](assets/plots/MetroHighwayCalifornia_ojits.png)
+
+- Results show consistent energy reduction across datasets
+- Performance varies with packet loss and prediction horizon
 ---
 
 ## Research Evolution
