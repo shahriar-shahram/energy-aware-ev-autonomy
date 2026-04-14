@@ -159,4 +159,3 @@ The framework demonstrates:
 
 ---
 
-## Repository Structure
