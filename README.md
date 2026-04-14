@@ -55,19 +55,55 @@ The framework combines:
   - Maintain safe following distance  
   - Ensure smooth driving behavior
 
-<img src="assets/diagrams/mpc_block.png" width="500">
-![ACC Scenario](assets/diagrams/ACC.png)
+<p align="center">
+  <img src="assets/diagrams/mpc_block.png" width="600">
+</p>
+
+<p align="center">
+  <img src="assets/diagrams/ACC.png" width="600">
+</p>
+
+<p align="center">
+  <img src="assets/diagrams/Ev_flow.png" width="600">
+</p>
+
+
+---
+
+## Energy Model and Convex Approximation
+
+<p align="center">
+  <img src="assets/diagrams/adaptive_partitioning.png" width="600">
+</p>
+
+- The EV energy model is inherently non-convex
+- Adaptive partitioning enables efficient convex approximation for real-time MPC
+
+---
 
 ## Detailed Results
 
 ### FTP-75 Drive Cycle
-![FTP75](assets/plots/ftp75_ojits.png)
 
-### NREL C3 Dataset
-![NREL](assets/plots/Nrelc3_ojits.png)
+<p align="center">
+  <img src="assets/plots/ftp75_ojits.png" width="600">
+</p>
+
+---
+
+### NREL C3 EV Dataset
+
+<p align="center">
+  <img src="assets/plots/Nrelc3_ojits.png" width="600">
+</p>
+
+---
 
 ### Metro Highway California
-![Metro](assets/plots/MetroHighwayCalifornia_ojits.png)
+
+<p align="center">
+  <img src="assets/plots/MetroHighwayCalifornia_ojits.png" width="600">
+</p>
 
 - Results show consistent energy reduction across datasets
 - Performance varies with packet loss and prediction horizon
